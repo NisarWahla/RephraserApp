@@ -1,0 +1,119 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RepheraserApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/emialEtBgColor</item>
+        <!--        ?attr/colorPrimaryVariant-->
+        <!-- Customize your theme here. -->
+        <item name="mukeshOtpStyle">@style/OtpWidget.OtpView</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="dialog">
+        <!-- title encapsulating main part (backgroud) of custom alertdialog -->
+        <item name="android:windowFrame">@null</item>
+        <!-- turn off any drawable used to draw a frame on the window -->
+        <item name="android:windowBackground">@drawable/bottom_sheet_button_bg</item>
+        <!-- turn off any drawable used to draw a frame on the window -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- float the window so it does not fill the screen -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- remove the title bar we make our own-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- remove the shadow from under the title bar -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="rephraserfragment">
+        <!-- title encapsulating main part (backgroud) of custom alertdialog -->
+        <item name="android:windowFrame">@null</item>
+        <!-- turn off any drawable used to draw a frame on the window -->
+        <item name="android:windowBackground">@color/white</item>
+        <!-- turn off any drawable used to draw a frame on the window -->
+        <!--        <item name="android:windowIsFloating">true</item>-->
+        <!-- float the window so it does not fill the screen -->
+
+        <item name="android:fitsSystemWindows">true</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <!-- remove the title bar we make our own-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- remove the shadow from under the title bar -->
+        <!--        <item name="android:windowCloseOnTouchOutside">true</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="Theme.RepheraserApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RepheraserApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RepheraserApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--nav drawer text bold-->
+    <style name="NavigationTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">02dp</item>
+        <item name="fontFamily">@font/sofia_pro_semi_bold_az</item>
+    </style>
+
+    <style name="MyPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+        <item name="fontFamily">@font/sofia_pro_semi_bold_az</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="tabIndicatorColor">@color/white</item>
+
+        <item name="tabTextColor">@color/word_count_color</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabIndicatorHeight">@dimen/_2sdp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/sofia_pro_semi_bold_az</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="tabIndicatorColor">@color/white</item>
+    </style>
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!--Bottom sheet dialog-->
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:backgroundTint">@color/app_color</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+</resources>

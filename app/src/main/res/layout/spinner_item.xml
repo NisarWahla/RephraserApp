@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinnerLay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sofia_pro_semi_bold_az"
+        android:gravity="left"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_4sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11ssp" />
+
+    <ImageView
+        android:id="@+id/spinner_IV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_75sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:src="@drawable/modes_premium_icon" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_button_bg"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    app:cardCornerRadius="@dimen/_30sdp"
+    app:cardElevation="@dimen/_2sdp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/preview"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_below="@+id/text"
+        android:background="@color/deviderLine" />
+
+    <EditText
+        android:id="@+id/rephrasedET"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_below="@+id/view"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/et_bg"
+        android:clickable="false"
+        android:editable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/sofia_pro_regular_az"
+        android:gravity="start"
+        android:maxHeight="@dimen/_120sdp"
+        android:minHeight="@dimen/_110sdp"
+        android:overScrollMode="always"
+        android:padding="@dimen/_5sdp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</RelativeLayout>

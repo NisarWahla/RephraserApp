@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:background="@drawable/bottom_sheet_button_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/txt_rename_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:fontFamily="@font/sofia_pro_semi_bold_az"
+        android:text="@string/permission_required"
+        android:textAllCaps="false"
+        android:textColor="@color/app_color"
+        android:textSize="@dimen/_18sdp" />
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:text="@string/this_permission_is_required_to_run_this_application"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/white"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ok_btn"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sofia_pro_semi_bold_az"
+            android:text="@string/ok"
+            android:background="@color/white"
+            android:textAllCaps="true"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/_14sdp" />
+    </LinearLayout>
+
+</LinearLayout>

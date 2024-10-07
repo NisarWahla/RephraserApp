@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.VerifyEmailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_2sdp">
+
+        <RelativeLayout
+            android:id="@+id/toolbarForgotPass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/ic_toolbar_bg">
+            <!--            ?actionBarSize-->
+            <ImageView
+                android:id="@+id/backTOLoginBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/backTOLoginText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:fontFamily="@font/sofia_pro_regular_az"
+                android:gravity="center"
+                android:text="@string/back_to_login"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/enterMailLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:src="@drawable/ic_forgotpass_verification_code_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:fontFamily="@font/sofia_pro_semi_bold_az"
+            android:text="@string/enter_verification_code"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:fontFamily="@font/sofia_pro_regular_az"
+            android:text="@string/enter_code_desc"
+            android:textSize="@dimen/_12ssp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/emailRelLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterMailLL"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_25sdp">
+
+        <TextView
+            android:id="@+id/enterMailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:fontFamily="@font/sofia_pro_semi_bold_az"
+            android:text="@string/verification_code_here"
+            android:textSize="@dimen/_11ssp" />
+
+        <com.mukesh.mukeshotpview.mukeshOtpView.MukeshOtpView
+            android:id="@+id/customOtpView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterMailText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:editable="true"
+            android:inputType="number"
+            android:itemBackground="@drawable/cs_et_bg_blue_color"
+            android:textColor="@color/app_color"
+            android:textSize="18sp"
+            app:hideLineWhenFilled="false"
+            app:itemCount="4"
+            app:lineColor="@color/app_color"
+            app:state_filled="false"
+            app:viewType="none" />
+
+
+        <!--
+                <com.gne.www.lib.PinView
+                    android:id="@+id/pinview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:inputType="number"
+                    app:isPassword="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:passwordToggleSize="26dp"
+                    app:pinBackground="@drawable/cs_et_bg_blue_color"
+                    app:pinCount="4"
+                    app:pinSize="30dp"
+                    app:pinText="Hello"
+                    app:showPasswordToggle="true"
+                    app:textColor="@color/app_color" />
+        -->
+        <!--        app:passwordToggleColor="@color/black"-->
+
+        <RelativeLayout
+            android:id="@+id/continue_without_login"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_below="@+id/customOtpView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_weight="0"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/join_us_before"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sofia_pro_medium_az"
+                android:paddingVertical="@dimen/_3sdp"
+                android:text="@string/or_continue"
+                android:textSize="@dimen/_11ssp" />
+
+            <TextView
+                android:id="@+id/WithOutLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/join_us_before"
+                android:fontFamily="@font/sofia_pro_medium_az"
+                android:paddingVertical="@dimen/_3sdp"
+                android:text="@string/Without_login"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/_11ssp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/verifyBtn"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/emailRelLay"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/generate_bg_selector"
+        android:fontFamily="@font/sofia_pro_medium_az"
+        android:text="@string/verify_now"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

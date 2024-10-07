@@ -1,0 +1,135 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    buildFeatures {
+        viewBinding true
+    }
+    compileSdk 33
+    defaultConfig {
+        applicationId "dzm.dzmedia.repheraserapp"
+        minSdk 26
+        targetSdk 33
+        versionCode 38
+        versionName "1.38"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            resValue 'string', 'monthly', '"https://store.payproglobal.com/checkout?products%5B1%5D%5Bid%5D=79869&page-template=16641&language=en&currency=USD&payment-method=14&x-uid="'
+            resValue 'string', 'quarterly', '"https://store.payproglobal.com/checkout?products%5B1%5D%5Bid%5D=79869&page-template=16641&language=en&currency=USD&payment-method=14&x-uid="'
+            resValue 'string', 'yearly', '"https://store.payproglobal.com/checkout?products%5B1%5D%5Bid%5D=79869&page-template=16641&language=en&currency=USD&payment-method=14&x-uid="'
+            resValue 'string', 'testurl', '"https://store.payproglobal.com/checkout?products%5B1%5D%5Bid%5D=79869&page-template=16641&language=en&currency=USD&payment-method=14&use-test-mode=true&secret-key=mzHYqQtS68&x-uid="'
+            resValue 'string', 'admob_app_id', '"ca-app-pub-6081967606533178~4638512491"'
+            resValue 'string', 'admob_native_id', '"ca-app-pub-6081967606533178/9699267486"'
+            resValue 'string', 'interstitialAds', '"ca-app-pub-6081967606533178/1258007049"'
+            resValue 'string', 'bannerAds', '"ca-app-pub-6081967606533178/4814108671"'
+            resValue 'string', 'weekly_id', '"weekly_id"'
+            resValue 'string', 'monthly_id', '"monthly_id"'
+            resValue 'string', 'yearly_id', '"yearly_id"'
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            resValue 'string', 'monthly', '"https://store.payproglobal.com/checkout?products[1][id]=79870&page-template=16641&language=en&currency=USD&payment-method=14&use-test-mode=true&secret-key=mzHYqQtS68&x-uid="'
+            resValue 'string', 'quarterly', '"https://store.payproglobal.com/checkout?products[1][id]=79870&page-template=16641&language=en&currency=USD&payment-method=14&use-test-mode=true&secret-key=mzHYqQtS68&x-uid="'
+            resValue 'string', 'yearly', '"https://store.payproglobal.com/checkout?products[1][id]=79871&page-template=16641&language=en&currency=USD&payment-method=14&use-test-mode=true&secret-key=mzHYqQtS68&x-uid="'
+            resValue 'string', 'testurl', '"https://store.payproglobal.com/checkout?products%5B1%5D%5Bid%5D=79869&page-template=16641&language=en&currency=USD&payment-method=14&use-test-mode=true&secret-key=mzHYqQtS68&x-uid="'
+            resValue 'string', 'admob_app_id', '"ca-app-pub-3940256099942544~3347511713"'
+            resValue 'string', 'admob_native_id', '"ca-app-pub-3940256099942544/2247696110"'
+            resValue 'string', 'interstitialAds', '"ca-app-pub-3940256099942544/1033173712"'
+            resValue 'string', 'bannerAds', '"ca-app-pub-3940256099942544/6300978111"'
+            resValue 'string', 'weekly_id', '"weekly_id"'
+            resValue 'string', 'monthly_id', '"monthly_id"'
+            resValue 'string', 'yearly_id', '"yearly_id"'
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    //sdp and ssp dependency
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    implementation 'com.google.firebase:firebase-common-ktx'
+    //Fragment
+    implementation "androidx.fragment:fragment-ktx:1.6.1"
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.7.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:4.4.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    //itext Library
+    //implementation 'com.itextpdf:itextg:5.5.10'
+    //export text from pdf
+    implementation 'com.tom-roush:pdfbox-android:2.0.24.0'
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    //permissionX for "don't ask again"
+    implementation 'com.guolindev.permissionx:permissionx:1.7.1'
+    //inApp update
+    implementation 'com.google.android.play:core:1.10.3'
+    //adding native templates
+    implementation project(':nativetemplates')
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+    //runtime android 12
+    implementation 'androidx.work:work-runtime:2.8.1'
+    //admob
+    implementation 'com.google.android.gms:play-services-ads:22.2.0'
+    //circular imageview
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //apache poi for reading data from word(".docx") file
+    implementation "org.apache.poi:poi:5.2.3"
+    implementation "org.apache.poi:poi-ooxml:5.2.3"
+    //apache poi for reading data from word(".doc") file
+    implementation 'org.apache.poi:poi-scratchpad:5.2.3'
+    //authenticate user with google
+    implementation 'com.google.android.gms:play-services-auth:20.6.0'
+    //easy preferences
+    implementation 'com.pixplicity.easyprefs:EasyPrefs:1.10.0'
+    //OTP View
+    implementation 'com.github.rajputmukesh748:MukeshOtpView:1.0.0'
+    //new otpview
+    implementation 'com.github.darshan-miskin:PinView-Android:v1.1.8'
+    //credit card EditText
+    implementation 'com.github.wednesday-solutions:CreditCardEditText:+@aar'
+    //material dialog
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    //lottie animation
+    implementation 'com.airbnb.android:lottie:6.0.0'
+    //facebook sdk
+    implementation 'com.facebook.android:facebook-login:latest.release'
+    implementation 'com.mobsandgeeks:android-saripaar:2.0.3'
+    //in app purchase akshaaatt/Google-IAP github library
+    implementation project(':iap')
+    implementation project(':imageslider')
+    implementation 'com.github.tejpratap46:PDFCreatorAndroid:3.0.2'
+}

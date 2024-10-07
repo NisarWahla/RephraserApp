@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <RelativeLayout
+        android:id="@+id/rllll"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/rate_dlg_bg">
+
+        <ImageView
+            android:id="@+id/cancelDialougeiV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="6dp"
+            android:contentDescription="@string/cancel"
+            android:src="@drawable/close_btn" />
+
+        <LinearLayout
+            android:id="@+id/linarlayoutvertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancelDialougeiV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/changeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/thanks_for_liking"
+                android:textColor="@color/app_color"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/arrowll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="46dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/the_best_we_can_get"
+                    android:textColor="@color/app_color"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginEnd="6dp"
+                    android:contentDescription="@string/ratingArrow"
+                    android:paddingTop="16dp"
+                    android:src="@drawable/pointing_arrow" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/firstStar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/star"
+                    android:padding="4dp"
+                    android:src="@drawable/given_star" />
+
+                <ImageView
+                    android:id="@+id/secondStar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/star"
+                    android:padding="4dp"
+                    android:src="@drawable/given_star" />
+
+                <ImageView
+                    android:id="@+id/thirdStar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/star"
+                    android:padding="4dp"
+                    android:src="@drawable/given_star" />
+
+                <ImageView
+                    android:id="@+id/fourthStar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/star"
+                    android:padding="4dp"
+                    android:src="@drawable/given_star" />
+
+                <ImageView
+                    android:id="@+id/fifthStar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/star"
+                    android:padding="4dp"
+                    android:src="@drawable/given_star" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rate_us_on_googletv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rate_btn_bg"
+            android:fitsSystemWindows="true"
+            android:gravity="center"
+            android:text="@string/rate_us_on_google"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <!--            android:fontFamily="@font/poppins_regular"-->
+
+    <ImageView
+        android:id="@+id/dialougeImageV"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/rllll"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="-320dp"
+        android:contentDescription="@string/emoji"
+        android:src="@drawable/circle_bg" />
+
+    <ImageView
+        android:id="@+id/changeEmojiIv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/dialougeImageV"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="-80dp"
+        android:contentDescription="@string/emoji"
+        android:padding="14dp"
+        android:src="@drawable/love" />
+
+</RelativeLayout>

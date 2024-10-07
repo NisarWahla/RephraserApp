@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    <group android:id="@+id/g1">-->
+
+    <item
+        android:id="@+id/mLoginSignup"
+        android:icon="@drawable/login_signup"
+        android:iconTint="@color/transparent"
+        android:title="@string/loginSignup"
+        android:visible="true" />
+    <item
+        android:id="@+id/mProfile"
+        android:icon="@drawable/ic_profile"
+        android:iconTint="@color/transparent"
+        android:title="@string/profile"
+        android:visible="true" />
+    <item
+        android:id="@+id/mSubscriptionPlan"
+        android:icon="@drawable/ic_subscription_nav_icon"
+        android:iconTint="@color/transparent"
+        android:title="@string/subscription_plan"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/mSavedFiles"
+        android:icon="@drawable/ic_saved_files"
+        android:iconTint="@color/transparent"
+        android:title="@string/savedFiles" />
+    <item
+        android:id="@+id/mBilling"
+        android:icon="@drawable/ic_billing"
+        android:iconTint="@color/transparent"
+        android:title="@string/billing"
+        android:visible="false" />
+    <item
+        android:id="@+id/mHistory"
+        android:icon="@drawable/ic_history"
+        android:iconTint="@color/transparent"
+        android:title="@string/history" />
+    <item
+        android:id="@+id/mChangePassword"
+        android:icon="@drawable/ic_chnge_password"
+        android:iconTint="@color/transparent"
+        android:title="@string/change_password" />
+    <item
+        android:id="@+id/mPrivacyPolicy"
+        android:icon="@drawable/privacy_policy"
+        android:iconTint="@color/transparent"
+        android:title="@string/privacyPolicy" />
+    <!--    </group>-->
+
+    <!--    <group android:id="@+id/g2">-->
+    <item
+        android:id="@+id/mMoreApps"
+        android:icon="@drawable/more_apps"
+        android:iconTint="@color/transparent"
+        android:title="@string/moreApps" />
+    <!--    </group>-->
+
+    <!--    <group android:id="@+id/g3">-->
+    <item
+        android:id="@+id/mRateApps"
+        android:icon="@drawable/rate_apps"
+        android:iconTint="@color/transparent"
+        android:title="@string/reteUs" />
+    <!--    </group>-->
+
+    <item
+        android:id="@+id/mSupportUs"
+        android:icon="@drawable/support_us"
+        android:iconTint="@color/transparent"
+        android:title="@string/supportUs" />
+    <item
+        android:id="@+id/mLogout"
+        android:icon="@drawable/ic_logout_icon"
+        android:iconTint="@color/transparent"
+        android:title="@string/logOut" />
+</menu>

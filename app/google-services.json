@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_number": "1035322739363",
+    "firebase_url": "https://rephraser-42165-default-rtdb.firebaseio.com",
+    "project_id": "rephraser-42165",
+    "storage_bucket": "rephraser-42165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035322739363:android:e453c991879ee862188d16",
+        "android_client_info": {
+          "package_name": "dzm.dzmedia.repheraserapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035322739363-0o69sc7oh8f6jueae17lahgnco8pn2n4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dzm.dzmedia.repheraserapp",
+            "certificate_hash": "12aa343084f5d2edfe4090ad0d7d954963d98396"
+          }
+        },
+        {
+          "client_id": "1035322739363-p9o7brdqdnlr0l74f7n64fpc5r90fk2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dzm.dzmedia.repheraserapp",
+            "certificate_hash": "6426861d3168dcf827d8ce69a66c15fbfec6c0c2"
+          }
+        },
+        {
+          "client_id": "1035322739363-pouakfmi046lul2rps8ube4ltboqhli9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dzm.dzmedia.repheraserapp",
+            "certificate_hash": "ddf6fc9b05141d1b5d4d1d5dfc10e113c8278323"
+          }
+        },
+        {
+          "client_id": "1035322739363-uhjd94lagubv606ijve93odgim0n88n2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dzm.dzmedia.repheraserapp",
+            "certificate_hash": "23a09abfa9d6d0bb547063c8d1031f6877bb1084"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI28EXnQzOrvZuBLjw5iGi4w7IdMNFY6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035322739363-6scdire6en99daiicc6ide9khtp3a3mj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1035322739363-lpov9ofj35if8o7emhus69evj7ab6o9s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dzinemedia.Rephraser.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

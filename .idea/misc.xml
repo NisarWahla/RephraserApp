@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable-xhdpi/cry.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/add_button.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/app_icon.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/bg_gradient.xml" value="0.124" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/bottom_sheet_button_bg.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/bottom_sheet_header.xml" value="0.1135" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/bottom_sheet_standard_bg.xml" value="0.1135" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/btn_disable.xml" value="0.154" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/circle_bg.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/close_btn.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/copy_text.xml" value="0.103" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/cs_desc_et_bg.xml" value="0.22" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/cs_et_bg.xml" value="0.1135" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/doc.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/doc_btn_bg.xml" value="0.1135" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/download_ico.xml" value="0.103" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/download_icon.xml" value="0.103" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/et_bg.xml" value="0.25" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/export.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/given_star.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/ic_saved_files.xml" value="0.15" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/ic_splash_icon.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/icon_upload.xml" value="0.103" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/love.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/main_bar.xml" value="0.1135" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/mian_button_bg.xml" value="0.1135" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/mian_scr_empty_icon.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/paste_text.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/pdf.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/pdf_btn_bg.xml" value="0.1135" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/pdf_file.xml" value="0.1095" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/pointing_arrow.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/rate_dlg_bg.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/round_upload.xml" value="0.103" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/swipe_reveal_bg.xml" value="0.124" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/textview_bg.xml" value="0.1135" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/three_dots.xml" value="0.11" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/drawable/ylw_star.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/activity_base.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/activity_base2.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/activity_splash.xml" value="0.1921875" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/activity_word_count.xml" value="0.1921875" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/fragment_base.xml" value="0.1921875" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/fragment_contact_support.xml" value="0.16" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/fragment_dialog_main.xml" value="0.14947916666666666" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/fragment_export_text_dialog.xml" value="0.15576192486281132" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/fragment_main.xml" value="0.18333333333333332" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/fragment_rephrase_paragraph.xml" value="0.14457831325301204" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/fragment_saved_files.xml" value="0.19114583333333332" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/nav_header.xml" value="0.1921875" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/permission_deny_dialog.xml" value="0.1921875" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/persistent_bottom_sheet_rephraser_frag.xml" value="0.1675925925925926" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/rate_us_custom_dialog.xml" value="0.19114583333333332" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/rating_exit_dialog.xml" value="0.15775972637879435" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/recently_used_items_lay.xml" value="0.18333333333333332" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/rename_dialog.xml" value="0.25" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/saved_files_lay.xml" value="0.18333333333333332" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/layout/saved_files_swipereveal_lay.xml" value="0.15576192486281132" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/menu/drawer_navigation.xml" value="0.1921875" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/menu/savefiles_menu_options_lay.xml" value="0.25" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/IbrahimData/BugsAndUpdate/Rephraser-App/nativetemplates/src/main/res/layout/gnt_small_template_view.xml" value="0.18" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/activity_main.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/activity_splash.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/fragment_contact_support.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/fragment_dialog_main.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/fragment_export_text_dialog.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/fragment_home.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/fragment_main.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/fragment_rephrase_paragraph.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/layout/nav_header.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/menu/drawer_navigation.xml" value="0.2630208333333333" />
+        <entry key="..\:/NisarAhmad/DzineMediaProjects/Rephraser-App/app/src/main/res/menu/savefiles_menu_options_lay.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/drawable/btn_disable.xml" value="0.2895" />
+        <entry key="app/src/main/res/drawable/btn_enable.xml" value="0.286" />
+        <entry key="app/src/main/res/drawable/generate_bg_selector.xml" value="0.2895" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_rephrase_paragraph.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/menu/savefiles_menu_options_lay.xml" value="0.2828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
